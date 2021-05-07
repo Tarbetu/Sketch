@@ -48,10 +48,4 @@ const updateGrid = () => {
     prepareTheGrid();
 }
 
-const heightInput = document.querySelector("#sizeInput"); 
-heightInput.defaultValue = "20";
-
-const widthInput = document.querySelector("#width");
-widthInput.defaultValue = "20";
-
 prepareTheGrid();
